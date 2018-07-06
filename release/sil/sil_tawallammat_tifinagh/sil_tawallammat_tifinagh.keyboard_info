@@ -1,5 +1,5 @@
 {
     "license": "mit",
     "languages": ["ttq-Tfng"],
-    "description": "This keyboard..."
+    "description": "This keyboard follows the Moroccan Tamazight Tifinagh keyboard specification plus additional keys needed for Tamajaq."
 }

@@ -1,7 +1,7 @@
-Tawallammat Tifinagh (SIL) Keyboard Change History
-=======================
+# Tawallammat Tifinagh (SIL) Keyboard Change History
 
-1.0 ()
------------------
+## 1.1 (6 JUL 2018)
+* Source ported to GitHub
 
-* Created by 
+## 1.0 (2017)
+* Initial version
