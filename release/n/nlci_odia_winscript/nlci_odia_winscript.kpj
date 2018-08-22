@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath>$PROJECTPATH\build</BuildPath>
+    <CompilerWarningsAsErrors>True</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+  </Options>
+  <Files>
+    <File>
+      <ID>id_07901bb250f86fdd2285fe601de403da</ID>
+      <Filename>nlci_odia_winscript.kmn</Filename>
+      <Filepath>source\nlci_odia_winscript.kmn</Filepath>
+      <FileVersion>1.2</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>Odia Winscript (NLCI)</Name>
+        <Copyright>© 2003-2018 NLCI Bangalore</Copyright>
+        <Message>Odia (Oriya) Phonetic Keyboard</Message>
+      </Details>
+    </File>
+    <File>
+      <ID>id_d8ef4445818b78c5f2b72a9b1bff6b11</ID>
+      <Filename>nlci_odia_winscript.bmp</Filename>
+      <Filepath>source\nlci_odia_winscript.bmp</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.bmp</FileType>
+      <ParentFileID>id_07901bb250f86fdd2285fe601de403da</ParentFileID>
+    </File>
+    <File>
+      <ID>id_78905c5163cb10202c20e53e3b335aa4</ID>
+      <Filename>nlci_odia_winscript.kps</Filename>
+      <Filepath>source\nlci_odia_winscript.kps</Filepath>
+      <FileVersion>1.2</FileVersion>
+      <FileType>.kps</FileType>
+      <Details>
+        <Name>Odia Winscript (NLCI)</Name>
+        <Copyright>© 2003-2018 NLCI Bangalore</Copyright>
+        <Version>1.2</Version>
+      </Details>
+    </File>
+    <File>
+      <ID>id_2c0d866237abfade12d8ceaf745756a5</ID>
+      <Filename>nlci_odia_winscript.kvk</Filename>
+      <Filepath>source\..\build\nlci_odia_winscript.kvk</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kvk</FileType>
+      <ParentFileID>id_78905c5163cb10202c20e53e3b335aa4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_d0117a98ae48ea292c8d2ffda0f02fe2</ID>
+      <Filename>nlci_odia_winscript.kmx</Filename>
+      <Filepath>source\..\build\nlci_odia_winscript.kmx</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kmx</FileType>
+      <ParentFileID>id_78905c5163cb10202c20e53e3b335aa4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <Filename>readme.htm</Filename>
+      <Filepath>source\readme.htm</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.htm</FileType>
+      <ParentFileID>id_78905c5163cb10202c20e53e3b335aa4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_b0270c6ca2264509a4bf881ba28eb9b3</ID>
+      <Filename>nlci_odia_winscriptU_.png</Filename>
+      <Filepath>source\welcome\nlci_odia_winscriptU_.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_78905c5163cb10202c20e53e3b335aa4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_e5b10611c6400cb0e0f5b07c79d0bf0d</ID>
+      <Filename>nlci_odia_winscriptU_S.png</Filename>
+      <Filepath>source\welcome\nlci_odia_winscriptU_S.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_78905c5163cb10202c20e53e3b335aa4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_724e5b4c63f10bc0abf7077f7c3172fc</ID>
+      <Filename>welcome.htm</Filename>
+      <Filepath>source\welcome\welcome.htm</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.htm</FileType>
+      <ParentFileID>id_78905c5163cb10202c20e53e3b335aa4</ParentFileID>
+    </File>
+  </Files>
+</KeymanDeveloperProject>
