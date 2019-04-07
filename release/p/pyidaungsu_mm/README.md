@@ -5,7 +5,7 @@ Copyright (C) YYYY  MCF NLP
 Version 2.1
 
 __DESCRIPTION__
-<add a description of this keyboard>
+This keyboard is designed for typing in the Myanmar (Burmese) language base on Myanmar3 Keyboard.
 
 ## Links
 
