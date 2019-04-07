@@ -6,16 +6,17 @@
   </System>
   <Options>
     <ExecuteProgram></ExecuteProgram>
-    <ReadMeFile>source\readme.htm</ReadMeFile>
+    <ReadMeFile>readme.htm</ReadMeFile>
     <MSIFileName>C:\Users\User\Downloads\Chrome_down\Downloads\Keyman\keymandesktop.msi</MSIFileName>
     <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
   </Options>
   <StartMenu>
     <Folder></Folder>
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">2.0</Version>
+    <Version URL="">2.1</Version>
     <Name URL="">Pyidaungsu MM</Name>
     <Copyright URL="">© MCF NLP</Copyright>
     <Author URL="mailto:suntun.nlp@gmail.com">Sun Tun</Author>
@@ -23,67 +24,79 @@
   </Info>
   <Files>
     <File>
-      <Name>build\pyidaungsu_mm.kvk</Name>
-      <Description>File pyidaungsu_mm.kvk</Description>
+      <Name>..\assets\OFL.txt</Name>
+      <Description>File OFL.txt</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.kvk</FileType>
+      <FileType>.txt</FileType>
     </File>
     <File>
-      <Name>build\pyidaungsu_mm.kmx</Name>
-      <Description>Keyboard Pyidaungsu MM</Description>
+      <Name>..\assets\OFL-FAQ.txt</Name>
+      <Description>File OFL-FAQ.txt</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.kmx</FileType>
+      <FileType>.txt</FileType>
     </File>
     <File>
-      <Name>build\pyidaungsu_mm.js</Name>
-      <Description>File pyidaungsu_mm.js</Description>
+      <Name>..\assets\Pyidaungsu-2.5.2_Bold.ttf</Name>
+      <Description>Font Pyidaungsu Bold</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.js</FileType>
+      <FileType>.ttf</FileType>
     </File>
     <File>
-      <Name>source\welcome.htm</Name>
-      <Description>File welcome.htm</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.htm</FileType>
-    </File>
-    <File>
-      <Name>source\readme.htm</Name>
-      <Description>File readme.htm</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.htm</FileType>
-    </File>
-    <File>
-      <Name>source\pyidaungsu_mm_S.png</Name>
-      <Description>File pyidaungsu_mm_S.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>source\pyidaungsu_mm.png</Name>
-      <Description>File pyidaungsu_mm.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>D:\Myanmar Unicode Pack7\fonts\pdsr-2.5.ttf</Name>
+      <Name>..\assets\Pyidaungsu-2.5.2_Regular.ttf</Name>
       <Description>Font Pyidaungsu</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.ttf</FileType>
     </File>
     <File>
-      <Name>D:\Myanmar Unicode Pack7\fonts\pdsb-2.5.ttf</Name>
-      <Description>Font Pyidaungsu Bold</Description>
+      <Name>..\build\pyidaungsu_mm.kvk</Name>
+      <Description>File pyidaungsu_mm.kvk</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.ttf</FileType>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>..\build\pyidaungsu_mm.kmx</Name>
+      <Description>Keyboard Pyidaungsu MM</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>..\build\pyidaungsu_mm.js</Name>
+      <Description>File pyidaungsu_mm.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description>File readme.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>welcome\pyidaungsu_mm.png</Name>
+      <Description>File pyidaungsu_mm.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\pyidaungsu_mm_S.png</Name>
+      <Description>File pyidaungsu_mm_S.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\welcome.htm</Name>
+      <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
     </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>Pyidaungsu MM</Name>
       <ID>pyidaungsu_mm</ID>
-      <Version>2.0</Version>
-      <OSKFont>D:\Myanmar Unicode Pack7\fonts\pdsr-2.5.ttf</OSKFont>
-      <DisplayFont>D:\Myanmar Unicode Pack7\fonts\pdsr-2.5.ttf</DisplayFont>
+      <Version>2.1</Version>
+      <OSKFont>..\assets\Pyidaungsu-2.5.2_Regular.ttf</OSKFont>
+      <DisplayFont>..\assets\Pyidaungsu-2.5.2_Regular.ttf</DisplayFont>
       <Languages>
         <Language ID="my-Mymr">Burmese (Myanmar)</Language>
       </Languages>
