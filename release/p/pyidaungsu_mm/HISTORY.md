@@ -1,7 +1,7 @@
-Dzongkha Keyboard Change History
-=======================
+## Pyidaungsu MM Change History
 
-1.0 (1 Jan 2015)
+
+2.1 (?? ?? ????)
 -----------------
 
 * Created by you
