@@ -1,0 +1,141 @@
+﻿c pyidaungsu_mm generated from template at 2019-03-06 11:48:17
+c with name "Pyidaungsu MM"
+store(&VERSION) '10.0'
+store(&NAME) 'Pyidaungsu MM'
+store(&COPYRIGHT) '© MCF NLP'
+store(&KEYBOARDVERSION) '2.1'
+store(&TARGETS) 'windows macosx linux web'
+store(&BITMAP) 'pyidaungsu_mm.ico'
+store(&VISUALKEYBOARD) 'pyidaungsu_mm.kvks'
+
+begin Unicode > use(main)
+
+group(main) using keys
++ [K_M] > 'ာ' 
++ [K_G] > 'ါ' 
++ [K_D] > 'ိ'
++ [SHIFT K_D] > 'ီ'
++ [K_K] > 'ု'
++ [K_L] > 'ူ' 
++ [K_A] > '‌ေ'
++ [SHIFT K_J] > 'ဲ'
++ [SHIFT K_H] > 'ံ'
++ [K_H] > '့'
++ [K_COLON] > 'း'
++ [SHIFT K_F] > '္'       
++ [K_F] > '်'
++ [SHIFT K_E] > 'ဣ'
++ [SHIFT K_T] > 'ဤ' 
++ [SHIFT K_U] > 'ဥ'
++ [SHIFT K_M] > 'ဦ'
++ [SHIFT K_LBRKT] > 'ဧ' 
++ [K_RBRKT] > 'ဩ'
++ [SHIFT K_RBRKT] > 'ဪ'
++ [SHIFT K_Y] > '၌'
++ [SHIFT K_I] > '၍'
++ [SHIFT K_R] > '၎င်း'
++ [K_BKSLASH] > '၏'
++ [SHIFT K_COMMA] > '၊'
++ [SHIFT K_PERIOD] > '။'
+
++ [K_NP0] > '၀'
++ [K_NP1] > '၁'    
++ [K_NP2] > '၂'    
++ [K_NP3] > '၃'    
++ [K_NP4] > '၄'    
++ [K_NP5] > '၅'    
++ [K_NP6] > '၆'    
++ [K_NP7] > '၇'    
++ [K_NP8] > '၈'    
++ [K_NP9] > '၉'    
+                           
+store(numK)'1234567890'
+store(numU)'၁၂၃၄၅၆၇၈၉၀'
+store(baseK)'qwertyuiop['\  
+    	   	'QWOP|'\ 
+    	   	'`'\  
+    	   	'~!@#$%^&:'\
+    	   	'zxcvbn'\  
+    	   	'ZXCVBN'\ 
+    	   	'AKL'
+store(baseU)'ဆတနမအပကငသစဟ'\
+    	   	'ဈဝဿဏၑ'\    
+    	   	'ၐ'\ 
+    	   	'ဎဍၒဋၓၔၕရဂ'\
+    	   	'ဖထခလဘည'\
+    	   	'ဇဌဃဠယဉ'\  
+    	   	'ဗဒဓ'   
+store(medialsK)'sjGS'
+store(medialsU)'ျြွှ' 
+store(tallAAgroupU)'ခဂငဒပဝ'
+store(voweliK)'dD'
+store(voweliU)'ိီ'
+store(voweluK)'kl'
+store(voweluU)'ုူ'
+store(upvowelK)'JH'  
+store(upvowelU)'ဲံ' 
+store(aaK)'mg'
+store(aaU)'ာါ'
+store(asatK)'fF'
+store(asatU)'်္' 
+store(medyaraK)'sj'
+store(medyaraU)'ျြ' 
+store(digitvowelK)'mgdDklJHh;'
+store(digitvowelU)'ာါိီုူဲံ့း'
+  
++ any(numK) > index(numU,1)
++ any(medialsK) > index(medialsU,1)
++ any(baseK) > index(baseU,1)
+c --------------                 
+U+200C U+1031 + any(baseK) > index(baseU,3)U+1031
+U+1031 U+1039 + any(baseK) > U+1039 index(baseU,3)U+1031   
+U+1031 + any(medialsK) > index(medialsU,2) U+1031
+c 
+U+101E + "j" > U+101E U+25CC U+103C    
+U+101E U+1031 + "j" > U+101E U+1031 U+25CC U+103C
+U+1025 + "D" > U+1025 U+25CC U+102E
+U+1025 + "f" > U+1025 U+25CC U+103A
+U+1005 + "s" > U+1005 U+25CC U+103B
+U+1005 U+1031 + "s" > U+1005 U+1031 U+25CC U+103B
+
+any(tallAAgroupU) U+1031 + "m" > index(tallAAgroupU,1) U+1031 U+102B 
+any(tallAAgroupU) + "m" > index(tallAAgroupU,1) U+102B 
+U+1039 any(tallAAgroupU)+ "m" > U+1039 index(tallAAgroupU,2)U+102C
+U+1012 U+1039 U+1012 + "m" > U+1012 U+1039 U+1012 U+102B
+U+1012 U+1039 U+1013 + "m" > U+1012 U+1039 U+1013 U+102B
+
+any(voweluU) + any(voweliK)> index(voweliU,2)index(voweluU,1)
+any(upvowelU) + any(voweluK)> index(voweluU,2)index(upvowelU,1)
+any(upvowelU) + any(voweliK) > index(voweliU,2)index(upvowelU,1)
+U+1037 + any(voweliK) > index(voweliU,2)U+1037  
+U+1037 + any(upvowelK) > index(upvowelU,2)U+1037     
+ 
+U+1037 + any(aaK) > index(aaU,2)U+1037 
+U+1036 + "J" > U+1032 U+1036 
+U+1038 + "h" > U+1037 U+1038                         
+U+103A + "h" > U+1037 U+103A
+
+U+1040 any(baseU) + any(asatK) > U+1040 U+25CC index(baseU,2) index(asatU,3)
+U+1047 any(baseU) + any(asatK) > U+1047 U+25CC index(baseU,2) index(asatU,3)
+U+1040 + any(digitvowelK) > U+1040 U+25CC index(digitvowelU,2)  
+U+1047 + any(digitvowelK) > U+1047 U+25CC index(digitvowelU,2)
+
+U+1044 U+1004 U+103A + ";" > U+1044 U+25CC U+1004 U+103A U+1038
+
+U+103D + any(medyaraK) > index(medyaraU,2) U+103D
+U+103E + any(medyaraK) > index(medyaraU,2) U+103E  
+U+103E + "G" > U+103D U+103E
+
+U+103D U+103E + any(medyaraK) > index(medyaraU,3) context
+U+103D U+1031 + any(medyaraK) > index(medyaraU,3) context
+U+103E U+1031 + any(medyaraK) > index(medyaraU,3) context
+U+103E U+1031 + "G" > U+103D context 
+U+103D U+103E U+1031 + any(medyaraK) > index(medyaraU,4)context
+
+any(baseU) U+1031 + [K_BKSP] > U+200C U+1031  
+U+1039 any(baseU) U+1031 + [K_BKSP] >  U+1031 
+U+1039 any(baseU) + [K_BKSP] >  nul
+U+200C U+1031 + [K_BKSP] > nul
+any(medialsU) U+1031 + [K_BKSP] > U+1031
+U+104E U+1004 U+103A U+1038 + [K_BKSP] >  nul
+U+1037 U+103A + [K_BKSP] > U+103A 
